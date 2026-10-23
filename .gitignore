@@ -1,0 +1,32 @@
+# dependencias descargadas / compiladas (nunca se versionan)
+third_party/vendor/
+third_party/src/
+third_party/build/
+
+# artefactos de compilacion
+*.o
+*.d
+*.a
+*.so
+soundwave
+
+# salidas
+*.mp4
+*.m4a
+examples/*.wav
+examples/*.png
+examples/tone
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos de sistema
+.env
+.env.local
+*.log
